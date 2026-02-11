@@ -1,10 +1,14 @@
+---
+import '../styles/tokens.css'
+import '../styles/global.css'
+---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.ico`} />
     <meta name="generator" content={Astro.generator} />
     <title>Mira Jamaleddine</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,8 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Outfit&family=Special+Gothic+Expanded+One&family=Nunito&family=Reenie+Beanie&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/src/styles/tokens.css" />
-    <link rel="stylesheet" href="/src/styles/global.css" />
   </head>
   <body>
     <slot name="header" />
