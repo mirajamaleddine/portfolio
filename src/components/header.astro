@@ -1,0 +1,30 @@
+---
+const links = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
+];
+---
+
+<div slot="header">
+  <header>
+    <nav>
+      <ul
+        class="flex items-center justify-center gap-9 flex-row text-xs tracking-widest uppercase nunito-300 py-4 bg-black/30 text-white bg-opacity-10 backdrop-blur-lg fixed top-0 left-0 right-0 z-50"
+      >
+        {
+          links.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class="transition-all duration-300 opacity-60 hover:opacity-100 "
+              >
+                {link.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </header>
+</div>

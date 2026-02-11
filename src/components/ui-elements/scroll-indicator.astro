@@ -1,0 +1,25 @@
+<div
+  class="relative w-[28px] h-[38px] border border-white rounded-full opacity-60 cursor-pointer"
+  onclick="window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });"
+>
+  <div
+    class="absolute w-[6px] h-[6px] bg-white rounded-full top-[10px] left-1/2 animate-[wheel-move_2s_infinite]"
+  >
+  </div>
+</div>
+
+<style>
+  @keyframes wheel-move {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, 0);
+    }
+    30% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-50%, 12px);
+    }
+  }
+</style>
