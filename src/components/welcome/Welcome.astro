@@ -1,23 +1,20 @@
 ---
-import ScrollIndicator from "../ui-elements/scroll-indicator.astro";
-import LandingStatement from "./landing-statement";
-import WhatIDo from "./what-i-do";
+import ScrollIndicator from '../ui-elements/scroll-indicator.astro'
+import LandingStatement from './landing-statement'
+import WhatIDo from './what-i-do'
 ---
 
 <div slot="main">
   <main>
-    <section
-      class="flex items-center justify-between h-screen flex-col gap-2 bg-black py-4"
-    >
+    <section class="flex items-center justify-between h-screen flex-col gap-2 bg-black py-4">
       <div></div>
       <LandingStatement client:load />
       <ScrollIndicator client:load />
     </section>
-    <section
-      class="flex items-center justify-between h-screen flex-col gap-2 bg-black"
-    >
+    <section class="flex items-center justify-between h-screen flex-col gap-2 bg-black">
       <WhatIDo client:load />
     </section>
+    <section class="flex items-center justify-between h-screen flex-col gap-2 bg-black"></section>
   </main>
 </div>
 
