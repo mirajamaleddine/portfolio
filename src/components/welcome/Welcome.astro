@@ -1,8 +1,7 @@
 ---
-import astroLogo from "../assets/astro.svg";
-import background from "../assets/background.svg";
+import ScrollIndicator from "../ui-elements/scroll-indicator.astro";
 import LandingStatement from "./landing-statement";
-import ScrollIndicator from "./ui-elements/scroll-indicator.astro";
+import WhatIDo from "./what-i-do";
 ---
 
 <div slot="main">
@@ -15,8 +14,9 @@ import ScrollIndicator from "./ui-elements/scroll-indicator.astro";
       <ScrollIndicator client:load />
     </section>
     <section
-      class="flex items-center justify-between h-screen flex-col gap-2 bg-white"
+      class="flex items-center justify-between h-screen flex-col gap-2 bg-black"
     >
+      <WhatIDo client:load />
     </section>
   </main>
 </div>
