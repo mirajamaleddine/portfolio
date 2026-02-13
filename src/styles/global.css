@@ -1,29 +1,35 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 .special-gothic-expanded-one-regular {
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .nunito-300 {
-    font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-  }
-  .source-code-pro-600 {
-    font-family: "Source Code Pro", monospace;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-  }
-  .reenie-beanie-regular {
-    font-family: "Reenie Beanie", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: 'Special Gothic Expanded One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nunito-300 {
+  font-family: 'Nunito', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.source-code-pro-600 {
+  font-family: 'Source Code Pro', monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.reenie-beanie-regular {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 .outfit-regular {
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
+}
+.outfit-light {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
   font-style: normal;
 }

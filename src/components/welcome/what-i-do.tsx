@@ -42,7 +42,7 @@ export default function WhatIDo() {
         className="w-5/6 h-px absolute bottom-1/6 right-0 bg-linear-to-r from-black via-slate-700 to-slate-900"
       />
 
-      <div className="flex py-[20vh] h-full max-w-7xl mx-auto text-white outfit-regular flex-col gap-6">
+      <div className="flex py-[12vh] h-full max-w-7xl mx-auto text-white outfit-regular flex-col gap-6">
         <div className="flex items-center flex-row gap-1.5 text-5xl mt-24">
           <span className="opacity-60">I build</span>
           <Typewriter
@@ -50,11 +50,11 @@ export default function WhatIDo() {
             words={['experiences.', 'clean interfaces.', 'software products.']}
           />
         </div>
-        <span className="text-xl nunito-300 opacity-60">
+        <span className="text-xl opacity-60 outfit-light">
           Not just features. Not just tickets. End-to-end product thinking with engineering depth.
         </span>
 
-        <div className="flex flex-row gap-18 py-10 h-full">
+        <div className="flex flex-row gap-18 py-24 h-full">
           <Note
             rotate={3}
             delay={0.3}

@@ -2,11 +2,14 @@
 import ScrollIndicator from '../ui-elements/scroll-indicator.astro'
 import LandingStatement from './landing-statement'
 import WhatIDo from './what-i-do'
+import MyWork from './my-work'
 ---
 
 <div slot="main">
   <main>
-    <section class="flex items-center justify-between h-screen flex-col gap-2 bg-black py-4">
+    <section
+      class="flex items-center justify-between h-screen flex-col gap-2 bg-black py-4 relative"
+    >
       <div></div>
       <LandingStatement client:load />
       <ScrollIndicator client:load />
@@ -14,7 +17,9 @@ import WhatIDo from './what-i-do'
     <section class="flex items-center justify-between h-screen flex-col gap-2 bg-black">
       <WhatIDo client:load />
     </section>
-    <section class="flex items-center justify-between h-screen flex-col gap-2 bg-black"></section>
+    <section class="flex items-center justify-between h-screen flex-col gap-2 bg-black">
+      <MyWork client:load />
+    </section>
   </main>
 </div>
 
